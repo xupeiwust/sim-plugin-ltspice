@@ -1,6 +1,6 @@
 ---
 name: ltspice-sim
-description: Use when working with LTspice circuit simulations: authoring `.net` netlists and `.asc` schematics, running LTspice by the simplest available batch path, and extracting verifiable `.meas`, `.log`, or `.raw` results. Prefer `uv run sim run --solver ltspice` when sim-cli is available because it records structured run history, but direct LTspice batch commands and portable file parsing are first-class paths.
+description: Use when the user asks Codex, Claude Code, or another AI coding agent to run, inspect, or debug LTspice circuits through sim-cli. Supports circuit simulation, waveform/log inspection, replayable artifacts, and troubleshooting.
 ---
 
 # ltspice-sim
